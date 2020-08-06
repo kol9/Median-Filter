@@ -1,5 +1,5 @@
 # Median-Filter
-### Median Filter algoritm implementation for colored images using OpenCV
+### Median Filter algorithm implementation for colored images using OpenCV
 
 ## Algorithm
 For each pixel, we traverse his neighbours in radius, passed as a parameter to MedianFilter class. And for each colour channel we accumulate the median value, which will be assigned to current pixel.
